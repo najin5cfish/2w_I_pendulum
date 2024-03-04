@@ -25,7 +25,7 @@ ESP32内の変数をアプリ経由で変更可能なblynkを用いた倒立振�
 ## ESP32の環境構築
   1. Arduino IDEを開く
   2. file -> Preferences...を開く
-  3. 追加ボードマネージャに"https://dl.espressif.com/dl/package_esp32_index.json"を追加
+  3. 追加ボードマネージャに "https://dl.espressif.com/dl/package_esp32_index.json" を追加
   4. tool -> board(board manager)を開く
   5. "esp32"とでたものをインストール
 
