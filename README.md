@@ -23,15 +23,15 @@ ESP32内の変数をアプリ経由で変更可能なblynkを用いた倒立振�
 
 # セットアップ
 ## ESP32の環境構築
-  1. Arduino IDEを開く
-  2. file -> Preferences...を開く
-  3. 追加ボードマネージャに "https://dl.espressif.com/dl/package_esp32_index.json" を追加
-  4. tool -> board(board manager)を開く
-  5. "esp32"とでたものをインストール
+  1. Arduino IDE を開く
+  2. file -> Preferences... を開く
+  3. 追加ボードマネージャに `https://dl.espressif.com/dl/package_esp32_index.json` を追加
+  4. tool -> board(board manager) を開く
+  5. `esp32` とでたものをインストール
 
   ```
   ESP32は内部でesptool.pyが動きます。  
-  M1Macを使用している場合にはPython周りで注意!
+  MacOSを使用している場合にはPython関連で注意が必要。
   ```
 
 ## 必要ライブラリのインストール
@@ -45,5 +45,4 @@ blynkライブラリのインストールは[こちら](https://github.com/blynk
 ## blynk(アプリ)のインストール
 "blynk"と打ちアプリ検索  
 iOSであれば[こちら](https://itunes.apple.com/us/app/blynk-control-arduino-raspberry/id808760481?ls=1&mt=8)から入手  
-```サービス終了している可能性がある```
-
+`サービス終了している可能性がある`
